@@ -1,0 +1,51 @@
+.header {
+    position: fixed; 
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+}
+.header-box {
+    
+    width: 100%;
+    padding-top: 70px;
+    background-color: transparent;
+
+    font-size: 18px;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.menu-header-left { 
+    display: inline-block;
+    margin-left: 60px;
+    width: 370px;
+}
+
+.menu-header-left > li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu-header-right {
+    position: relative;
+    width: 320px;
+    margin-right: 60px;
+    float: right;
+    
+}
+
+.menu-header-right > li {
+    float: left;
+    margin-left: 25px;
+}
+
+.menu-header-right > .social-media-icon {
+    float: right;
+}
+
+.menu-header-right > .social-media-icon > img {
+    width: 25px;
+    margin-top: -4px;
+
+}
