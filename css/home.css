@@ -127,12 +127,20 @@ main {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
     width: 240px;
+
+    background: transparent;
+    transition: 0.5s;
 }
 
 .button > p {
     display: inline-block;
     margin: 12px 20px 12px 20px;
 }
+
+.button:hover {
+    letter-spacing: 3px;
+    transition: 0.5s;
+  }
 
 .parallax {
     position: relative;
@@ -166,10 +174,18 @@ main {
     background-image: url("../imagens/parallax-moda-praia.png");
 }
 
+#parallax-1 > .button:hover {
+    background: #4f7cac;
+}
+
 #parallax-2::after {
     background-image: url("../imagens/parallax-moda-intima.png");
     transform: translateZ(-1px) scale(1.6);
     top: 20px;
+}
+
+#parallax-2 > .button:hover {
+    background: #f88cae;
 }
 
 #parallax-3::after {
@@ -178,13 +194,6 @@ main {
     top: 20px;
 }
 
-#parallax-3 > img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.6);
-    
-}
 
 .parallax > h2 { 
     position: absolute;
@@ -202,7 +211,6 @@ main {
     position: absolute;
     color: white;
     font-weight: 400;
-
     text-align: center;
 
     border-color: white;
@@ -210,11 +218,37 @@ main {
     top: 60%;
     left: 50%;
     transform: translate(-50%);
+
+    background: transparent;
+    transition: 0.5s;
+}
+
+.hearts {
+    position: relative;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hearts > img {
+    display: inline-block;
+
+    vertical-align: middle;
+
+    margin-left: 9.7%;
+    width: 8%;
+    min-width: 6%;
+}
+
+#main-heart {
+    width: 10%;
+    min-width: 7%;
 }
 
 .images-box > img {
     display: inline-block;
-    width: 16.45%;
+    width: 16.50%;
     margin: 0px;
     transform: scale(1.02);
 }
