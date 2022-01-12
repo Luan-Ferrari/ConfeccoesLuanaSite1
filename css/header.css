@@ -7,7 +7,7 @@
 .header-box {
     
     width: 100%;
-    padding-top: 70px;
+    padding-top: 55px;
     background-color: transparent;
 
     font-size: 18px;
@@ -18,7 +18,7 @@
 
 .menu-header-left { 
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 20px;
     width: 370px;
 }
 
@@ -28,24 +28,98 @@
 }
 
 .menu-header-right {
-    position: relative;
-    width: 320px;
-    margin-right: 60px;
-    float: right;
-    
+    display: inline;
+    position: absolute;
+    width: 60%;
+    right: 170px;
 }
 
 .menu-header-right > li {
-    float: left;
+    float: right;
     margin-left: 25px;
 }
 
-.menu-header-right > .social-media-icon {
-    float: right;
+.menu-social-media {
+    display: inline;
+    position: absolute;
+    top: 68px;
+    right: 60px;
+    
 }
 
-.menu-header-right > .social-media-icon > img {
-    width: 25px;
-    margin-top: -4px;
+.menu-social-media > li {
+    float: right;
+    margin-left: 20px;
+}
 
+.menu-social-media > li > img {
+    width: 25px;    
+}
+
+.hamburguer-menu {
+    height: 100%;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 100%;
+}
+
+label span {
+    display: none;
+    position: absolute;
+    /* display: block; */
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: black;
+    transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1) {
+    top: 0;
+}
+
+label span:nth-child(2) {
+    top: 8px;
+}
+
+label span:nth-child(3) {
+    top: 16px;
+}
+
+#checkbox-menu:checked + label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#checkbox-menu:checked + label span:nth-child(2) {
+    background-color: white;
+    opacity: 0.7;
+    width: 220px;
+    height: 300px;
+
+    border-radius: 20px;
+
+    top: -12px;
+    left: -10px;
+
+    z-index: -1;
+}
+
+#checkbox-menu:checked + label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
 }

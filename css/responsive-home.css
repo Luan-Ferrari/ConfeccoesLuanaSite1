@@ -1,0 +1,387 @@
+@media screen and (max-width: 2020px) {
+    .box-small-details {
+        width: 48.9%;
+    }
+
+    #parallax-3 { 
+        height: 650px;
+    }
+
+    .images-box > img {
+        width: 16.45%;
+    }
+
+}
+
+@media screen and (max-width: 1560px) {
+    #box-small-2 h2 {
+        top: 10%;
+    }
+
+    #box-small-2 h3 {
+        top: 32%;
+    }
+
+    #box-small-2 p {
+        top: 46%;
+    }
+
+    #box-small-2 .button {
+        top: 80%;
+    }
+
+    #parallax-3 {
+        height: 450px;
+    }
+
+    #parallax-3::after {
+        height: 750px;
+        top: 0;
+    }
+
+    .images-box > img {
+        width: 16.40%;
+    }
+
+    .footer-box {
+        height: 300px;
+    }
+
+    .internal-footer-box > P {
+        margin: 3%;
+        width: 17%;
+    }
+
+    #logo {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .main-tittle > br {
+        display: inline;
+    }
+
+    .fixed-box-big {
+        height: 700px;
+    }
+
+    .fixed-box-big-image {
+        left: 50%;
+        transform: translate(-50%);
+    
+        top: 200px;
+    
+        width: 200px;
+    }
+
+    #fixed-box-big-1-tittle {
+        top: 550px;
+        font-size: 35px;
+        letter-spacing: 15px;
+        width: 70%;
+    }
+    
+    #fixed-box-big-1-tittle > span {
+        font-size: 95px;
+        width: 1200px;
+    }
+
+    .box-small-details {
+        width: 48.8%;
+        padding: 0 1% 0 1%;
+    }
+
+    .box-small br {
+        display: none;
+    }
+
+    .box-small-image {
+        width: 48%;
+    }
+
+    .parallax { 
+        height: 620px;
+    }
+
+    #parallax-3 {
+        height: 400px;
+    }
+
+    .hearts > img {
+        margin-left: 8.4%;
+        width: 9%;
+    }
+    
+    #main-heart {
+        width: 12%;
+    }
+
+    .images-box > img {
+        width: 16.35%;
+    }
+
+    .internal-footer-box > P {
+        margin: 2%;
+        width: 18.5%;
+    }
+
+    #logo {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    #fixed-box-big-1-tittle > span {
+        font-size: 85px;
+        width: 1300px;
+    }
+    #parallax-3::after {
+        height: 620px;
+        top: -10px;
+    }
+
+    .images-box > img { 
+        width: 16.30%;
+    }
+
+    .internal-footer-box > P {
+        font-size: 18px;
+    }
+
+    .footer-box {
+        height: 220px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .main-tittle {
+        font-size: 70px;
+    }
+
+    .fixed-box-big-image {    
+        top: 160px;
+        width: 200px;
+    }
+
+    #fixed-box-big-1-tittle {
+        top: 510px;
+        font-size: 30px;
+        width: 80%;
+    }
+    
+    #fixed-box-big-1-tittle > span {
+        font-size: 70px;
+    }
+
+    
+    .fixed-box-big {
+        height: 630px;
+    }    
+
+    .box-small {
+        height: 600px;
+        border-radius: 50px;
+    }
+
+    .box-small-image { 
+        width: 100%;
+        height: 300px;
+        border-radius: 50px;
+    }
+    
+    .box-small-details {
+        width: 100%;
+        height: 300px;
+        transition: 0.50s ease-in-out;
+    }
+
+    .box-small-details > h2 {
+        width: 95%;
+        font-size: 40px;
+        top: 8%;
+    }
+    
+    .box-small-details > h3 {
+        top: 26%;
+    }
+    
+    .box-small-details > p {
+        width: 95%;
+        top: 46%;
+    }
+    
+    .box-small-details > .button {
+        top: 74%;
+    }
+
+    #box-small-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #box-small-2 > .box-small-details {
+        order: 2;
+        height: 700px;
+    }
+
+    #box-small-2 > .box-small-image {
+        order: 1;
+    }
+
+    #parallax-3 {
+        height: 300px;
+    }
+
+    #parallax-3::after {
+        height: 400px;
+    }
+
+    .hearts > img {
+        margin-left: 6.8%;
+        width: 11%;
+    }
+    
+    #main-heart {
+        width: 15%;
+    }
+
+    .images-box > img {
+        width: 16.18%;
+    }
+
+    .internal-footer-box {
+        width: 95%;
+    }
+
+    .internal-footer-box > P {
+        font-size: 15px;
+        margin: 1%;
+        width: 22.5%;
+    }
+
+    #logo {
+        margin-top: 15px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-tittle {
+        font-size: 60px;
+        top: 20px;
+    }
+
+    .fixed-box-big-image {    
+        width: 150px;
+        top: 170px;
+    }
+
+    #fixed-box-big-1-tittle {
+        top: 430px;
+        font-size: 25px;
+    }
+    
+    #fixed-box-big-1-tittle > span {
+        font-size: 50px;
+    }
+
+    .fixed-box-big {
+        height: 580px;
+    }    
+
+    .box-small {
+        height: 800px;
+        border-radius: 50px;
+    }
+
+    .box-small-image { 
+        width: 100%;
+        height: 300px;
+        border-radius: 50px;
+    }
+    
+    .box-small-details {
+        height: 400px;
+    }
+
+    .box-small-details > h2 {
+        width: 95%;
+        font-size: 35px;
+        top: 3%;
+    }
+    
+    .box-small-details > h3 {
+        font-size: 35px;
+        top: 25%;
+    }
+    
+    .box-small-details > p {
+        width: 90%;
+        top: 46%;
+    }
+    
+    .box-small-details > .button {
+        top: 95%;
+    }
+
+    #box-small-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #box-small-2 > .box-small-details {
+        order: 2;
+        height: 700px;
+    }
+
+    #box-small-2 > .box-small-image {
+        order: 1;
+    }
+
+    #parallax-3 {
+        height: 300px;
+    }
+
+    #parallax-3::after {
+        height: 400px;
+    }
+
+    .hearts > img {
+        margin-left: 6.8%;
+        width: 11%;
+    }
+    
+    #main-heart {
+        width: 15%;
+    }
+
+    .images-box > img {
+        width: 32.5%;
+    }
+
+    .footer-box {
+        height: 350px;
+    }
+
+    .internal-footer-box {
+        width: 95%;
+    }
+
+    .internal-footer-box > P {
+        font-size: 15px;
+        margin: 3%;
+        width: 40%;
+    }
+
+    #logo {
+        margin-top: 15px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}

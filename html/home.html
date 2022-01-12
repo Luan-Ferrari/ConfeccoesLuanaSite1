@@ -9,28 +9,51 @@
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/responsive-home.css">
+        <link rel="stylesheet" href="../css/responsive-header.css">
     </head>
 
     <body>
         <header class="header">
-            <div class="header-box">
-                <ul class="menu-header-left">
+            <nav class="header-box">
+                <div class="hamburguer-menu">
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul class="menu-header-left">
+                            <li>HOME</li>
+                            <li>PRODUTOS</li>
+                            <li>CATÁLOGOS</li>
+                        </ul>
+        
+                        <ul class="menu-header-right">
+                            <li>SOBRE</li>
+                            <li>CONTATO</li>
+                        </ul>
+                    </label>
+                </div>
+                <!-- <ul class="menu-header-left">
                     <li>HOME</li>
                     <li>PRODUTOS</li>
                     <li>CATÁLOGOS</li>
-                </ul>
+                </ul> -->
 
-                <ul class="menu-header-right">
-                    <li>SOBRE</li>
-                    <li>CONTATO</li>
+                <ul class="menu-social-media">
                     <li class="social-media-icon"><img src="../imagens/icone-facebook.png"></li>
                     <li class="social-media-icon"><img src="../imagens/icone-instagram.png"></li>
                 </ul>
-            </div>
+<!-- 
+                <ul class="menu-header-right">
+                    <li>SOBRE</li>
+                    <li>CONTATO</li>
+                </ul> -->
+            </nav>
         </header>
 
         <main>
-            <h1 class="main-tittle">Confecções Luana</h1>
+            <h1 class="main-tittle">Confecções<br> Luana</h1>
             <div class="fixed-box-big" id="fixed-box-big-1">
                 <img class="fixed-box-big-image" id="fixed-box-big-1-image" src="../imagens/biquini-box-1.png">
                 <h2 class="fixed-box-big-tittle" id="fixed-box-big-1-tittle">PEÇAS<br><span>SOB MEDIDA</span></h2>
@@ -58,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="box-small">
+            <div class="box-small" id="box-small-2">
                 <div class="box-small-details">
                     <h2>PIJAMAS, BLUSAS E CASACOS</h2>
                     <h3>Inverno e Verão</h3>
@@ -113,7 +136,7 @@
 
             <div class="footer-box">
                 <div class="internal-footer-box">
-                    <p>Rua Henrique Dias, 571<br>
+                    <p>Rua Henrique Dias, 571, 
                     Centro, Erechim - RS<br>
                     CEP 99700-262</p>
                     <p>(54) 3522-4437<br>
