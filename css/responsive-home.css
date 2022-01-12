@@ -238,7 +238,8 @@
     }
 
     #parallax-3::after {
-        height: 400px;
+        top: -60px;
+        height: 500px;
     }
 
     .hearts > img {
@@ -344,11 +345,25 @@
         order: 1;
     }
 
+    .parallax > h2 { 
+        width: auto;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    #parallax-2::after {
+        background-image: url("../imagens/parallax-moda-intima.png");
+        transform: translateZ(-1px) scale(1.6);
+        top: 20px;
+        left: 20px;
+    }
+
     #parallax-3 {
-        height: 300px;
+        height: 150px;
     }
 
     #parallax-3::after {
+        top: -150px;
         height: 400px;
     }
 
